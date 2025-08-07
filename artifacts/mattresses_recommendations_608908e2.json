@@ -1,0 +1,110 @@
+{
+  "category": "mattresses",
+  "type": "recommendations",
+  "timestamp": "2025-08-07T14:48:55.534321",
+  "data": {
+    "top_5_mattresses": [
+      {
+        "price_range": "$1700 - $2300",
+        "why": "Appears in the most lists (4), recommended by high-credibility sources like Good Housekeeping and Forbes. Offers multiple firmness options and is known for good support and spinal alignment.",
+        "weaknesses": [
+          "Online-only availability"
+        ],
+        "name": "Saatva Classic",
+        "appears_in": [
+          "YouTube",
+          "Good Housekeeping",
+          "Sleepopolis",
+          "Forbes"
+        ],
+        "strengths": [
+          "Excellent support",
+          "multiple firmness options",
+          "good for back pain"
+        ],
+        "best_for": "Back pain sufferers, those who prefer innerspring support"
+      },
+      {
+        "appears_in": [
+          "YouTube",
+          "Good Housekeeping",
+          "Sleepopolis",
+          "Forbes"
+        ],
+        "name": "Nolah Evolution 15\"",
+        "price_range": "$1500 - $2000",
+        "strengths": [
+          "Advanced cooling",
+          "good for all sleeper types",
+          "pressure relief"
+        ],
+        "weaknesses": [
+          "Might be too soft for some stomach sleepers"
+        ],
+        "best_for": "Hot sleepers, combination sleepers",
+        "why": "Appears in 4 lists. It is praised for its advanced cooling features and suitability for all sleeper types."
+      },
+      {
+        "name": "Helix Midnight Luxe",
+        "weaknesses": [
+          "Pricey compared to other options"
+        ],
+        "appears_in": [
+          "Sleepopolis",
+          "Forbes"
+        ],
+        "why": "Appears in 2 lists (Sleepopolis and Forbes) and is specifically recommended for side sleepers due to its excellent pressure relief.",
+        "strengths": [
+          "Excellent pressure relief",
+          "good for side sleepers"
+        ],
+        "best_for": "Side sleepers",
+        "price_range": "$1700 - $2200"
+      },
+      {
+        "weaknesses": [
+          "Mediocre motion isolation"
+        ],
+        "why": "Appears in 2 lists (Sleepopolis and Forbes). It offers a luxury feel at a reasonable price point, making it a good value option.",
+        "price_range": "$900 - $1500",
+        "appears_in": [
+          "Sleepopolis",
+          "Forbes"
+        ],
+        "name": "DreamCloud",
+        "best_for": "Those seeking a luxurious feel on a budget",
+        "strengths": [
+          "Luxury feel",
+          "good value for money"
+        ]
+      },
+      {
+        "best_for": "Hot sleepers",
+        "weaknesses": [
+          "May be too bouncy for some"
+        ],
+        "name": "Brooklyn Bedding Aurora Luxe",
+        "why": "This mattress appears in 4 lists. It stands out for its excellent cooling capabilities, making it ideal for hot sleepers.",
+        "strengths": [
+          "Excellent cooling",
+          "good for hot sleepers"
+        ],
+        "appears_in": [
+          "Sleepopolis",
+          "Forbes",
+          "NapLab"
+        ],
+        "price_range": "$1600 - $2100"
+      }
+    ],
+    "sources_consulted": [
+      "YouTube - Best Mattress Recommended by Reddit for 2024",
+      "The Independent - Best mattresses 2025, tested by The Independent's sleep expert",
+      "Good Housekeeping - 14 Best Mattress of 2025, Tested by Scientists",
+      "Sleepopolis - The 10 Best Mattresses (2025) - Tested by Our Experts & Doctor Approved",
+      "Forbes - We Tested Over 200 Beds To Find The 14 Best Mattresses Of 2025",
+      "NapLab - Best Mattress 2025 \u2013 350+ Beds Tested & Reviewed by Our Experts"
+    ],
+    "methodology": "Analyzed 6 top 10 lists from YouTube, The Independent, Good Housekeeping, Sleepopolis, Forbes, and NapLab. Weighted by: Source credibility, testing methodology, recency. Consensus picks: Products that appeared most frequently across multiple lists."
+  }
+}

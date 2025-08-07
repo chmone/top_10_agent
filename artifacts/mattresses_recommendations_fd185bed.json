@@ -1,0 +1,120 @@
+{
+  "category": "mattresses",
+  "type": "recommendations",
+  "timestamp": "2025-08-07T14:51:20.834000",
+  "data": {
+    "sources_consulted": [
+      "NapLab - Best Mattress for Side Sleepers",
+      "Mattress Clarity - Best Mattress for Side Sleepers (2025)",
+      "Sleepopolis - The 10 Best Mattresses for Side Sleepers (2025)",
+      "Forbes - The Best Mattresses For Side Sleepers",
+      "The Independent - Best mattresses 2025",
+      "RTINGS.com - The 5 Best Mattresses For Side Sleepers of 2025",
+      "Good Housekeeping - The Best Mattresses for Side Sleepers",
+      "Previous analysis"
+    ],
+    "top_5_mattresses": [
+      {
+        "appears_in": [
+          "Mattress Clarity",
+          "Sleepopolis",
+          "Forbes",
+          "previous analysis"
+        ],
+        "weaknesses": [
+          "Pricey compared to other options"
+        ],
+        "name": "Helix Midnight Luxe",
+        "strengths": [
+          "Excellent pressure relief",
+          "zoned support",
+          "good for side sleepers"
+        ],
+        "price_range": "$1700 - $2200",
+        "best_for": "Side sleepers",
+        "why": "Consistently ranked as a top choice for side sleepers across multiple expert reviews. Offers excellent pressure relief."
+      },
+      {
+        "price_range": "$1500 - $2000",
+        "appears_in": [
+          "Mattress Clarity",
+          "Forbes",
+          "previous analysis"
+        ],
+        "best_for": "Side sleepers who sleep hot",
+        "why": "Frequently cited as a top pick overall for side sleepers.",
+        "name": "Nolah Evolution 15\"",
+        "weaknesses": [
+          "Might be too soft for some stomach sleepers"
+        ],
+        "strengths": [
+          "Pressure relief",
+          "cooling",
+          "good for all sleeper types"
+        ]
+      },
+      {
+        "why": "Consistently ranked high, often noted as good for couples and comes in different firmness options",
+        "appears_in": [
+          "NapLab",
+          "Mattress Clarity",
+          "Sleepopolis"
+        ],
+        "price_range": "varies by retailer, generally $1500-$2000",
+        "name": "WinkBed",
+        "strengths": [
+          "Good for couples",
+          "multiple firmness options",
+          "durable"
+        ],
+        "weaknesses": [
+          "Can be expensive"
+        ],
+        "best_for": "Side sleepers who share a bed"
+      },
+      {
+        "appears_in": [
+          "NapLab",
+          "Mattress Clarity",
+          "Sleepopolis",
+          "Forbes"
+        ],
+        "weaknesses": [
+          "May not be firm enough for some"
+        ],
+        "price_range": "varies by retailer, generally $1600-$2100",
+        "strengths": [
+          "Cooling",
+          "pressure relief",
+          "good support"
+        ],
+        "why": "Highlighted as a good hybrid mattress, with cooling features.",
+        "name": "Leesa Sapira Chill Hybrid",
+        "best_for": "Hot side sleepers who want a hybrid"
+      },
+      {
+        "why": "The Plush Soft option is specifically recommended for side sleepers needing pressure relief.",
+        "name": "Saatva Classic (Plush Soft)",
+        "price_range": "$1700 - $2300",
+        "appears_in": [
+          "NapLab",
+          "Mattress Clarity",
+          "Sleepopolis",
+          "Good Housekeeping",
+          "previous analysis (general Saatva Classic)"
+        ],
+        "weaknesses": [
+          "Online-only availability",
+          "some testers found it a bit firm even in plush soft"
+        ],
+        "best_for": "Side sleepers who also need good back support",
+        "strengths": [
+          "Excellent support (especially back support)",
+          "multiple firmness options",
+          "good for back pain (with plush soft option for side sleepers)"
+        ]
+      }
+    ],
+    "methodology": "Analyzed 13 top 10 lists and reviews from NapLab, Mattress Clarity, Sleepopolis, Forbes, The Independent, RTINGS.com, Good Housekeeping and previous analysis. Weighted by: Source credibility, testing methodology (pressure mapping for side sleepers), recency. Consensus picks: Products that appeared most frequently across multiple lists as being good for side sleepers."
+  }
+}

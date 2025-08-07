@@ -1,0 +1,124 @@
+{
+  "category": "mattresses",
+  "type": "recommendations",
+  "timestamp": "2025-08-07T15:03:51.763273",
+  "data": {
+    "sources_consulted": [
+      "Sleep Advisor - Best Mattress Under $1000",
+      "New York Magazine - The Strategist - 6 Best Mattresses Under $1,000",
+      "Sleepopolis - The Best Mattresses Under $1,000",
+      "NapLab - The Best Affordable Mattress Under $1000",
+      "Mattress Nerd - Best Mattresses Under $1,000",
+      "Esquire - The 12 Best Mattresses Under $1000",
+      "Forbes - The 7 Best Mattresses Under $1000",
+      "Sleep Doctor - Best Mattresses Under $1000",
+      "Tom's Guide - The best mattress under $1000",
+      "eachnight - Best Mattress Under $1000",
+      "Youtube - Best Mattress Under $1000 | Top 6 Affordable Beds! (FULL GUIDE)",
+      "Youtube - Best Mattress Under $1000 for 2025 | Top Picks From Dr. Jordan Burns"
+    ],
+    "methodology": "Analyzed 12+ top 10 lists and reviews from Sleep Advisor, New York Magazine - The Strategist, Sleepopolis, NapLab, Mattress Nerd, Esquire, Forbes, Sleep Doctor, Tom's Guide, eachnight, Youtube. Weighted by: Source credibility (Tier 1/Tier 2/Tier 3), mentions of cooling and pressure relief. Consensus picks: Products that appeared most frequently across multiple lists as being good for side sleepers and/or hot sleepers.",
+    "top_5_mattresses": [
+      {
+        "weaknesses": [
+          "Some reports of off-gassing",
+          "can be too soft for stomach sleepers"
+        ],
+        "strengths": [
+          "Pressure relief",
+          "Cooling features",
+          "Good value for money"
+        ],
+        "price_range": "$600-$800",
+        "name": "Nectar Premier/Premier Copper",
+        "best_for": "Side sleepers who sleep hot and want a good value",
+        "appears_in": [
+          "Sleep Advisor",
+          "Sleepopolis",
+          "Mattress Nerd",
+          "Forbes",
+          "Tom's Guide",
+          "Youtube"
+        ],
+        "why": "Consistently praised for pressure relief and cooling features. Good value."
+      },
+      {
+        "strengths": [
+          "Hybrid construction",
+          "Cooling features",
+          "Pressure relief"
+        ],
+        "name": "DreamCloud Premier Rest",
+        "appears_in": [
+          "Sleep Advisor",
+          "Sleepopolis",
+          "Mattress Nerd",
+          "Sleep Doctor"
+        ],
+        "why": "Hybrid construction provides good support and comfort. Features a cooling cashmere blend cover and good pressure relief.",
+        "weaknesses": [
+          "Can be too firm for some side sleepers",
+          "potential durability concerns"
+        ],
+        "best_for": "Side sleepers who sleep hot and prefer a hybrid mattress",
+        "price_range": "$800-$1000"
+      },
+      {
+        "best_for": "Side sleepers who sleep hot and want customization options",
+        "why": "Multiple firmness options available, with cooling options. Good value.",
+        "weaknesses": [
+          "May not be as durable as more expensive mattresses",
+          "off-gassing"
+        ],
+        "price_range": "$600-$800",
+        "appears_in": [
+          "Mattress Nerd",
+          "NapLab"
+        ],
+        "strengths": [
+          "Multiple firmness options",
+          "good value",
+          "cooling options available"
+        ],
+        "name": "Brooklyn Bedding Signature Hybrid"
+      },
+      {
+        "best_for": "Side sleepers who want a balanced feel and motion isolation",
+        "why": "Designed specifically for side sleepers with a balanced feel and good motion isolation.",
+        "name": "Helix Midnight",
+        "appears_in": [
+          "Sleepopolis",
+          "Tom's Guide"
+        ],
+        "price_range": "$600-$800",
+        "weaknesses": [
+          "Cooling not as effective as dedicated cooling mattresses",
+          "can be too soft for heavier individuals"
+        ],
+        "strengths": [
+          "Designed for side sleepers",
+          "balanced feel",
+          "good motion isolation"
+        ]
+      },
+      {
+        "best_for": "Combination sleepers who want a responsive mattress with good edge support",
+        "name": "Leesa Sapira Hybrid",
+        "strengths": [
+          "Good for all sleeping positions",
+          "responsive",
+          "edge support"
+        ],
+        "why": "Good for all sleeping positions, responsive, and has good edge support. While not specifically designed for hot sleepers, it's a good all-around option.",
+        "appears_in": [
+          "NapLab"
+        ],
+        "price_range": "$800-$1000",
+        "weaknesses": [
+          "Price may be higher than other options",
+          "not specifically designed for hot sleepers"
+        ]
+      }
+    ]
+  }
+}
