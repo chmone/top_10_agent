@@ -99,5 +99,3 @@ Your analysis should be structured, data-driven, and highlight:
 - Price and use-case segmentation
 """
 )
-
-analyzer_agent_tool = AgentTool(agent=analyzer_agent)

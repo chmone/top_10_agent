@@ -11,12 +11,9 @@ from dotenv import load_dotenv
 
 # Import subagents
 
-from .agents.search_agent import search_agent_tool
-from .agents.analyzer_agent import analyzer_agent_tool
-
     # For direct execution
-from agents.search_agent import search_agent_tool
-from agents.analyzer_agent import analyzer_agent_tool
+from .agents.search_agent import search_agent_tool
+from .agents.analyzer_agent import analyzer_agent
 
 # Import tools
 try:
@@ -47,6 +44,7 @@ load_dotenv()
 root_agent = Agent(
     name="top_10_orchestrator",
     model="gemini-2.0-flash-exp",
+    sub_agents=[analyzer_agent],
     tools=[
         load_memory_tool, 
         preload_memory_tool, 
@@ -54,14 +52,14 @@ root_agent = Agent(
         save_research_artifact,
         load_research_artifacts,
         get_artifact_summary,
-        search_agent_tool,
-        analyzer_agent_tool
+        search_agent_tool
     ],
     before_agent_callback=before_agent_callback,
     after_agent_callback=after_agent_callback,
     before_model_callback=before_model_callback,
     after_model_callback=after_model_callback,
     instruction="""
+    
 You are the Top 10 Agent orchestrator. You help users find the ACTUAL best 5 products/services by analyzing real top 10 lists from credible sources.
 
 ## Your Process
@@ -90,14 +88,14 @@ The search tool will:
 
 ### Step 4: Deep Analysis with Analyzer
 Once you receive the search results:
-- Delegate to analyzer_agent_tool for deep analysis of the lists
+- Delegate to analyzer_agent subagent for deep analysis of the lists
 - The analyzer will identify consensus picks across multiple sources
 - It will evaluate source credibility (Tier 1/2/3)
 - It will extract product details, strengths, weaknesses
 - Save the analysis as an artifact using save_research_artifact (type: 'analysis')
 
 ### Step 5: Make Your Expert Judgment
-Based on the aggregated top 10 lists and analyzer_agent_tools response, select YOUR top 5:
+Based on the aggregated top 10 lists and analyzer_agent response, select YOUR top 5:
 
 Consider:
 - **Consensus**: Products appearing in multiple credible lists
@@ -156,6 +154,8 @@ You: "I'll have search_specialist find the top 10 lists for wireless headphones 
 You: "Based on analysis of 7 top 10 lists from TechRadar, Wirecutter, CNET, and others, here are the actual top 5 wireless headphones..."
 
 Remember: Your value is in intelligently aggregating and analyzing multiple expert top 10 lists, not creating rankings from scratch.
+
+After Delivering a Report be sure to use 
 """
 )
 
